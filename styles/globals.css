@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+/* Simple focus style */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79,70,229,0.15);
+  border-radius: 8px;
+}
